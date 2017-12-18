@@ -1,4 +1,33 @@
-/* Body */
-body {
-  padding-bottom: 70px;
+/*-- Main Content --*/
+.main-content h3,h4 {
+  text-align: center;
+}
+.main-content h3 {
+  text-decoration: underline;
+  padding-bottom: 20px;
+}
+.main-content p {
+  text-align: left;
+}
+@media (max-width: 767px) {
+  .main-content {
+    padding-top: 420px;
+  }
+}
+@media (min-width: 768px) {
+  .main-content {
+    padding-top: 320px;
+  }
+}
+@media (min-width: 992px) {
+  .main-content {
+    padding-top: 220px;
+  }
+}
+/* ---------- */
+
+/*-- Area Of Interest Section --*/
+.area-interest-icon {
+  height: 100px;
+  margin: auto;
 }
