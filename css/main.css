@@ -1,56 +1,95 @@
 /*-- Main Content --*/
-.main-content {
-  background-color: #666;
-  color: #fff;
+body {
+  color: #ecf0f1;
+  background-image: url("../images/background.png");
 }
 .main-content h3 {
   text-align: center;
-  text-decoration: underline;
-  padding-bottom: 20px;
+  padding-bottom: 100px;
+  color: #fff;
+  text-shadow: 1px 1px 5px #ecf0f1;
 }
 /* ---------- */
 
 /*-- Area Of Interest Section --*/
-.area-interest h4 {
+#area-interest h4 {
   text-align: center;
+  padding: 20px 0 20px 0;
 }
-.area-interest p {
+#area-interest p {
   text-align: left;
+  padding-bottom: 100px;
+  font-size: 15px;
 }
 @media (max-width: 767px) {
-  .area-interest {
-    padding-top: 420px;
+  #area-interest {
+    padding: 50px 100px 0 100px;
+  }
+  #area-interest p {
+    padding-bottom: 40px;
   }
 }
 @media (min-width: 768px) {
-  .area-interest {
-    padding-top: 320px;
-  }
-}
-@media (min-width: 992px) {
-  .area-interest {
-    padding-top: 220px;
-  }
+  #area-interest {
+    padding: 0 100px 0 100px;
 }
 .area-interest-icon {
   height: 100px;
   margin: auto;
   border-radius: 50px;
-  border: 3px solid lightblue;
+  border: 5px solid lightblue;
 }
 /* ---------- */
 
 /*-- Work Experience Section --*/
-.work-experience {
-  background-color: #666;
-  color: #fff;
-}
-.work-experience h4,h5 {
+#work-experience h4,h5 {
   text-align: center;
+  padding: 5px 0 0 0;
+}
+.company-name {
+  padding-bottom: 100px;
 }
 .company-icon {
   margin: auto;
   height: 100px;
   border-radius: 50px;
-  border: 3px solid lightgreen;
+  border: 5px solid lightgreen;
 }
+@media (max-width: 767px) {
+  .company-name {
+    padding-bottom: 40px;
+  }
+  #work-experience {
+    padding: 0 100px 0 100px;
+  }
+}
+/* ---------- */
+
+/*-- Education --*/
+#education h4,h5 {
+  text-align: center;
+  padding: 5px 0 0 0;
+}
+.school-name {
+  padding-bottom: 100px;
+}
+.school-icon {
+  margin: auto;
+  height: 100px;
+  border-radius: 50px;
+  border: 5px solid lightpink;
+}
+@media (max-width: 767px) {
+  .school-name {
+    padding-bottom: 40px;
+  }
+  #education {
+    padding: 0 100px 0 100px;
+  }
+}
+@media (min-width: 768px) {
+  #education {
+    padding: 0 100px 0 100px;
+  }
+}
+/* ---------- */
