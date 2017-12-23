@@ -40,4 +40,9 @@ nav ul li a:hover {
   color: #000;
   font-weight: bold;
 }
+.icon-bar {
+  color: #000;
+  border-color: #000;
+  background-color: #000;
+}
 /* ---------- */
