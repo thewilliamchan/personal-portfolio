@@ -18,7 +18,6 @@ nav .col-md-6 {
 .profile-img {
   border-radius: 75px;
   object-fit: cover;
-  transform: rotate(90deg);
   width: 150px;
   height: 150px;
 }
