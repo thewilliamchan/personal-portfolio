@@ -1,7 +1,20 @@
-/*-- Main Content --*/
+/*-- Body --*/
 body {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version,currently
+                                  supported by Chrome and Opera */
+}
+/* ---------- */
+
+/*-- Main Content --*/
+.main-content {
   color: #ecf0f1;
   background-image: url("../images/background.png");
+  margin-top: -20px;
 }
 .main-content h3 {
   text-align: center;
@@ -31,7 +44,8 @@ body {
 }
 @media (min-width: 768px) {
   #area-interest {
-    padding: 0 100px 0 100px;
+    padding: 10px 100px 0 100px;
+  }
 }
 .area-interest-icon {
   height: 100px;
@@ -62,6 +76,9 @@ body {
   #work-experience {
     padding: 0 100px 0 100px;
   }
+  #work-experience h3 {
+    font-size: 1.6em;
+  }
 }
 /* ---------- */
 
@@ -91,5 +108,12 @@ body {
   #education {
     padding: 0 100px 0 100px;
   }
+}
+/* ---------- */
+
+/*-- Footer --*/
+.footer {
+  text-align: center;
+  background-color: #f2f2f2;
 }
 /* ---------- */
